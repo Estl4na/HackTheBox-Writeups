@@ -33,7 +33,6 @@ set PROXIES HTTP:127.0.0.1:8080
   set RHOSTS 94.237.56.224
   set RPORT 35060
   ```  
-- **Optional**: Specify a path (e.g., `/uploads`). If skipped, Metasploit uses a random filename by default.  
 
 ### 6. **Run the Module**  
 Execute the scan:  
@@ -45,6 +44,8 @@ run
 - Go to **Proxy → HTTP History** in Burp.  
 - Locate the `PUT` request sent to your target (e.g., `94.237.56.224:35060`).  
 - Inspect the **raw request** to see its structure.  
+
+![9cc499bbdecc05fb45acae9b51bc053](https://github.com/user-attachments/assets/ef101628-f30a-4041-a011-8fdb89a4c740)
 
 ---
 
